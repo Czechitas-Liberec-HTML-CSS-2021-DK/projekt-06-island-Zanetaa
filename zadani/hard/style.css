@@ -135,7 +135,7 @@ img {
     text-align: left;
 }
 
-@media (min-width:500px) {
+/*@media (min-width:500px) {
 
     .menu li {
         display: inline-flex;
@@ -150,11 +150,15 @@ img {
     .menu a {
         display: inline-flex;
         padding: 20px 30px;
-        text-decoration: none;
-        border: 1px solid grey;
+        /*text-decoration: none;
+        border: 1px solid grey;*//*
     }
 
-    
+    .fotografie {
+        display:flex;
+        flex-wrap: wrap;
+        flex-basis: 50%;
+    }
 
     .foto1,
     .foto2,
@@ -170,10 +174,10 @@ img {
 
     .popisekfoto{
         position: absolute;
-        top: 400px;
+        top: 0px;
         bottom: 0;
-        left: 200px;
-        right: 200px;
+        left: 0px;
+        right: 0px;
         background:lightgrey;
         visibility: hidden;
         opacity: 0;
@@ -226,11 +230,29 @@ img {
         opacity: 0.5;
     }
 
-    /*.fotografie {
-        display:inline-flex;
-    }*/
+}*/
 
-    /*
+@media (min-width:500px) {
+    .menu li {
+        display: inline-flex;
+        justify-content: space-evenly;
+    }
+
+    .menu {
+        margin:10px;
+        padding:0px;
+    }
+    
+    .menu a {
+        display: inline-flex;
+        padding: 20px 30px;
+    }
+
+    .fotografie {
+        display:flex;
+        flex-wrap: wrap;
+    }
+
     .foto1,
     .foto2,
     .foto3,
@@ -240,7 +262,9 @@ img {
     .foto7,
     .foto8,
     .foto9 {
-        display: flex;
-    }*/
+        min-height: 150px;
+        flex-basis: 50%;
+    }
+
 
 }
