@@ -24,13 +24,20 @@ h1 {
     text-align: center;
     background-size: cover;
     min-height: 200px;
+    padding: 10px;
 }
 
 .autor1 {
     opacity: 50%;
 }
 
+.linkanadpis {
+    height: 1px;
+}
+
 /*menu*/
+
+
 
 /*úvod*/
 
