@@ -269,6 +269,46 @@ img {
         margin-left: 50px;
         margin-right: 50px;
     }
+
+    .menu {
+        position:relative;
+        float: left;
+        padding-top: 30px;
+    }
+
+    .menu li {
+        display: table-row;
+        justify-content: space-evenly;
+    }
+    
+    .menu a {
+        display: table-row;
+        padding: 30px 30px;
+    }
+
+    .uvod {
+        display:relative;
+        margin-left: 250px;
+        padding-top: 50px;
+    }
+
+    .sekce1 p {
+        display:relative;
+        margin-right:250px;
+    }
+
+    .sekce2 p {
+        display:relative;
+        margin-left:250px;
+    }
+
+    .sekce2 h2 {
+        display:relative;
+        margin-left:250px;
+    }
+
+
+
 /*
     .menuuvod {
         display: inline-flex;
