@@ -13,9 +13,21 @@ body {
 
 
 /*header*/
-.nadpis1 {
+h1 {
     font-family: "Raleway", serif;
+    font-size: 40px;
+}
+
+.header {
     color:white;
+    background-image: url("../../images/island-hlavicka.jpg");
+    text-align: center;
+    background-size: cover;
+    min-height: 200px;
+}
+
+.autor1 {
+    opacity: 50%;
 }
 
 /*menu*/
