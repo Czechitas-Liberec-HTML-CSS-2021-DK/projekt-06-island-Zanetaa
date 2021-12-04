@@ -139,12 +139,12 @@ img {
 
     .menu li {
         display: inline-flex;
+        justify-content: space-evenly;
     }
 
     .menu {
         margin:10px;
         padding:0px;
-        text-align: center;
     }
     
     .menu a {
@@ -154,6 +154,93 @@ img {
         border: 1px solid grey;
     }
 
-
     
+
+    .foto1,
+    .foto2,
+    .foto3,
+    .foto4,
+    .foto5,
+    .foto6,
+    .foto7,
+    .foto8,
+    .foto9 {
+        position:relative;
+    }
+
+    .popisekfoto{
+        position: absolute;
+        top: 400px;
+        bottom: 0;
+        left: 200px;
+        right: 200px;
+        background:lightgrey;
+        visibility: hidden;
+        opacity: 0;
+        transition: opacity .2s, visibility .2s;
+    }
+
+
+    .foto1:hover .popisekfoto {
+        visibility: visible;
+        opacity: 0.5;
+    }
+
+    .foto2:hover .popisekfoto {
+        visibility: visible;
+        opacity: 0.5;
+    }
+
+    .foto3:hover .popisekfoto {
+        visibility: visible;
+        opacity: 0.5;
+    }
+
+    .foto4:hover .popisekfoto {
+        visibility: visible;
+        opacity: 0.5;
+    }
+
+    .foto5:hover .popisekfoto {
+        visibility: visible;
+        opacity: 0.5;
+    }
+
+    .foto6:hover .popisekfoto {
+        visibility: visible;
+        opacity: 0.5;
+    }
+
+    .foto7:hover .popisekfoto {
+        visibility: visible;
+        opacity: 0.5;
+    }
+
+    .foto8:hover .popisekfoto {
+        visibility: visible;
+        opacity: 0.5;
+    }
+
+    .foto9:hover .popisekfoto {
+        visibility: visible;
+        opacity: 0.5;
+    }
+
+    /*.fotografie {
+        display:inline-flex;
+    }*/
+
+    /*
+    .foto1,
+    .foto2,
+    .foto3,
+    .foto4,
+    .foto5,
+    .foto6,
+    .foto7,
+    .foto8,
+    .foto9 {
+        display: flex;
+    }*/
+
 }
