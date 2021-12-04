@@ -93,9 +93,30 @@ img {
 }
 
 /*sekce2*/
-
+.sekce2 {
+    margin:10px;
+}
 
 /*Fotogalerie*/
+.fotogalerie {
+    margin:10px;
+}
+
+.fotografie {
+    text-align: center;
+}
+
+.fotografie p {
+    color:grey;
+    text-align: center;
+    margin:0;
+}
+
+.foto {
+    width: 100%;
+    height: auto;
+}
 
 
 /*Footer*/
+
