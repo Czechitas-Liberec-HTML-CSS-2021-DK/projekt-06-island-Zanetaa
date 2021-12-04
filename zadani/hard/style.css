@@ -25,6 +25,7 @@ h1 {
     background-size: cover;
     min-height: 200px;
     padding: 10px;
+    max-width: 100%;
 }
 
 .autor1 {
@@ -55,13 +56,41 @@ h1 {
 }
 
 
-
-
 /*úvod*/
 
+.uvod {
+    margin:10px;
+}
+
+.fotopopis {
+    color: grey;
+    opacity: 50%;
+    text-align: center;
+}
+
+.fotopopis a {
+    color:grey;
+}
 
 /*sekce1*/
 
+.sekce1 {
+    margin:10px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+.linkamodra {
+    color: #629edb;
+}
+
+img {
+    justify-content: space-evenly;
+    max-width: 100%;
+    height: auto;
+}
 
 /*sekce2*/
 
