@@ -25,7 +25,7 @@ h1 {
     background-size: cover;
     min-height: 200px;
     padding: 10px;
-    max-width: 100%;
+    width: 100%;
 }
 
 .autor1 {
@@ -135,103 +135,6 @@ img {
     text-align: left;
 }
 
-/*@media (min-width:500px) {
-
-    .menu li {
-        display: inline-flex;
-        justify-content: space-evenly;
-    }
-
-    .menu {
-        margin:10px;
-        padding:0px;
-    }
-    
-    .menu a {
-        display: inline-flex;
-        padding: 20px 30px;
-        /*text-decoration: none;
-        border: 1px solid grey;*//*
-    }
-
-    .fotografie {
-        display:flex;
-        flex-wrap: wrap;
-        flex-basis: 50%;
-    }
-
-    .foto1,
-    .foto2,
-    .foto3,
-    .foto4,
-    .foto5,
-    .foto6,
-    .foto7,
-    .foto8,
-    .foto9 {
-        position:relative;
-    }
-
-    .popisekfoto{
-        position: absolute;
-        top: 0px;
-        bottom: 0;
-        left: 0px;
-        right: 0px;
-        background:lightgrey;
-        visibility: hidden;
-        opacity: 0;
-        transition: opacity .2s, visibility .2s;
-    }
-
-
-    .foto1:hover .popisekfoto {
-        visibility: visible;
-        opacity: 0.5;
-    }
-
-    .foto2:hover .popisekfoto {
-        visibility: visible;
-        opacity: 0.5;
-    }
-
-    .foto3:hover .popisekfoto {
-        visibility: visible;
-        opacity: 0.5;
-    }
-
-    .foto4:hover .popisekfoto {
-        visibility: visible;
-        opacity: 0.5;
-    }
-
-    .foto5:hover .popisekfoto {
-        visibility: visible;
-        opacity: 0.5;
-    }
-
-    .foto6:hover .popisekfoto {
-        visibility: visible;
-        opacity: 0.5;
-    }
-
-    .foto7:hover .popisekfoto {
-        visibility: visible;
-        opacity: 0.5;
-    }
-
-    .foto8:hover .popisekfoto {
-        visibility: visible;
-        opacity: 0.5;
-    }
-
-    .foto9:hover .popisekfoto {
-        visibility: visible;
-        opacity: 0.5;
-    }
-
-}*/
-
 @media (min-width:500px) {
     .menu li {
         display: inline-flex;
@@ -338,5 +241,46 @@ img {
         opacity: 0.5;
     }
 
+}
+
+@media (min-width:1000px) {
+    body{
+        background-color: lightgrey;
+    }
+
+    .foto1,
+    .foto2,
+    .foto3,
+    .foto4,
+    .foto5,
+    .foto6,
+    .foto7,
+    .foto8,
+    .foto9 {
+        flex-basis:33.33%;
+    }
+
+    .vystouple {
+        position: relative;
+        top:-30px;
+        bottom:0;
+        background-color: white;
+        box-shadow: thistle;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+/*
+    .menuuvod {
+        display: inline-flex;
+    }
+
+    .menuuvod .menu li {
+        display:block;
+    }
+
+    .vystouple {
+        background-color: white;
+    }
+*/
 }
 
