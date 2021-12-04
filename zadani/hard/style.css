@@ -264,7 +264,79 @@ img {
     .foto9 {
         min-height: 150px;
         flex-basis: 50%;
+        margin: 0;
+        padding: 0;
+        border: 0;
     }
 
+    .popisekfoto{
+        position: absolute;
+        top: 0px;
+        bottom: 0;
+        left: 0px;
+        right: 0px;
+        background:lightgrey;
+        visibility: hidden;
+        opacity: 0;
+        transition: opacity .2s, visibility .2s;
+    }
+
+    .foto1,
+    .foto2,
+    .foto3,
+    .foto4,
+    .foto5,
+    .foto6,
+    .foto7,
+    .foto8,
+    .foto9 {
+        position:relative;
+    }
+
+    .foto1:hover .popisekfoto {
+        visibility: visible;
+        opacity: 0.5;
+    }
+
+    .foto2:hover .popisekfoto {
+        visibility: visible;
+        opacity: 0.5;
+    }
+
+    .foto3:hover .popisekfoto {
+        visibility: visible;
+        opacity: 0.5;
+    }
+
+    .foto4:hover .popisekfoto {
+        visibility: visible;
+        opacity: 0.5;
+    }
+
+    .foto5:hover .popisekfoto {
+        visibility: visible;
+        opacity: 0.5;
+    }
+
+    .foto6:hover .popisekfoto {
+        visibility: visible;
+        opacity: 0.5;
+    }
+
+    .foto7:hover .popisekfoto {
+        visibility: visible;
+        opacity: 0.5;
+    }
+
+    .foto8:hover .popisekfoto {
+        visibility: visible;
+        opacity: 0.5;
+    }
+
+    .foto9:hover .popisekfoto {
+        visibility: visible;
+        opacity: 0.5;
+    }
 
 }
+
