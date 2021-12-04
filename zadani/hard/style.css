@@ -28,6 +28,10 @@ h1 {
     width: 100%;
 }
 
+.popis1{
+    border-bottom: 1px solid white;
+}
+
 .autor1 {
     opacity: 50%;
 }
@@ -53,7 +57,8 @@ h1 {
     text-decoration:none;
     color:grey;
     text-transform: uppercase;
-    text-decoration: overline;
+    border-bottom: 1px solid lightgrey;
+    /*text-decoration: underline;*/
 }
 
 
@@ -81,6 +86,7 @@ h1 {
 
 h2 {
     font-size: 32px;
+    border-bottom: 4px solid #629edb;
 }
 
 .linkamodra {
@@ -88,7 +94,7 @@ h2 {
 }
 
 img {
-    justify-content: space-evenly;
+    /*justify-content: space-evenly;*/
     max-width: 100%;
     height: auto;
 }
@@ -284,6 +290,7 @@ img {
     .menu a {
         display: table-row;
         padding: 30px 30px;
+        border-bottom: 1px solid lightgrey;
     }
 
     .uvod {
@@ -293,6 +300,11 @@ img {
     }
 
     .sekce1 p {
+        display:relative;
+        margin-right:250px;
+    }
+
+    .sekce1 h2 {
         display:relative;
         margin-right:250px;
     }
@@ -307,20 +319,10 @@ img {
         margin-left:250px;
     }
 
-
-
-/*
-    .menuuvod {
-        display: inline-flex;
+    .fotogalerie h2 {
+        display:relative;
+        margin-right:250px;
     }
 
-    .menuuvod .menu li {
-        display:block;
-    }
-
-    .vystouple {
-        background-color: white;
-    }
-*/
 }
 
