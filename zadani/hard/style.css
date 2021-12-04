@@ -104,6 +104,7 @@ img {
 
 .fotografie {
     text-align: center;
+    padding: 10px;
 }
 
 .fotografie p {
@@ -119,4 +120,18 @@ img {
 
 
 /*Footer*/
+
+.footer {
+    background-color:lightgrey;
+    padding:20px;
+    color: grey;
+}
+
+.footer a {
+    color: grey;
+}
+
+.footer p {
+    text-align: left;
+}
 
