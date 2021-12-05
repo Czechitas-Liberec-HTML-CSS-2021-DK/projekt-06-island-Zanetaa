@@ -36,9 +36,6 @@ h1 {
     opacity: 50%;
 }
 
-.linkanadpis {
-    height: 1px;
-}
 
 /*menu*/
 .menu {
@@ -89,9 +86,10 @@ h2 {
     border-bottom: 4px solid #629edb;
 }
 
-.linkamodra {
-    color: #629edb;
-}
+
+/*h2::after-line {
+    color:blue;
+  }*/
 
 img {
     /*justify-content: space-evenly;*/
@@ -157,6 +155,12 @@ img {
         padding: 20px 30px;
     }
 
+    h2 {
+        position:relative;
+        margin-right:400px;
+    }
+    
+
     .fotografie {
         display:flex;
         flex-wrap: wrap;
@@ -205,46 +209,55 @@ img {
     .foto1:hover .popisekfoto {
         visibility: visible;
         opacity: 0.5;
+        margin-top: 5rem;
     }
 
     .foto2:hover .popisekfoto {
         visibility: visible;
         opacity: 0.5;
+        margin-top: 5rem;
     }
 
     .foto3:hover .popisekfoto {
         visibility: visible;
         opacity: 0.5;
+        margin-top: 5rem;
     }
 
     .foto4:hover .popisekfoto {
         visibility: visible;
         opacity: 0.5;
+        margin-top: 5rem;
     }
 
     .foto5:hover .popisekfoto {
         visibility: visible;
         opacity: 0.5;
+        margin-top: 5rem;
     }
 
     .foto6:hover .popisekfoto {
         visibility: visible;
         opacity: 0.5;
+        margin-top: 5rem;
     }
 
     .foto7:hover .popisekfoto {
         visibility: visible;
         opacity: 0.5;
+        margin-top: 5rem;
     }
 
     .foto8:hover .popisekfoto {
         visibility: visible;
         opacity: 0.5;
+        margin-top: 5rem;
     }
 
     .foto9:hover .popisekfoto {
         visibility: visible;
         opacity: 0.5;
+        margin-top: 5rem;
     }
 
 }
@@ -272,6 +285,8 @@ img {
         bottom:0;
         background-color: white;
         box-shadow: thistle;
+        /*width:960px;
+        justify-content: center;*/
         margin-left: 50px;
         margin-right: 50px;
     }
@@ -296,7 +311,7 @@ img {
     .uvod {
         display:relative;
         margin-left: 250px;
-        padding-top: 50px;
+        padding-top: 100px;
     }
 
     .sekce1 p {
@@ -317,6 +332,7 @@ img {
     .sekce2 h2 {
         display:relative;
         margin-left:250px;
+        margin-right:50px;
     }
 
     .fotogalerie h2 {
