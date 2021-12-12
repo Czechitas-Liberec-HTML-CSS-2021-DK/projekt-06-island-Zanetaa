@@ -1,0 +1,344 @@
+/* nejsme vcerejsi, pouzivame moderni box model */
+*, ::after, ::before { box-sizing: border-box; }
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    font-family: 'Merriweather', serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+
+/*header*/
+h1 {
+    font-family: "Raleway", serif;
+    font-size: 40px;
+}
+
+.header {
+    color:white;
+    background-image: url("../../images/island-hlavicka.jpg");
+    text-align: center;
+    background-size: cover;
+    min-height: 200px;
+    padding: 10px;
+    width: 100%;
+}
+
+.popis1{
+    border-bottom: 1px solid white;
+}
+
+.autor1 {
+    opacity: 50%;
+}
+
+
+/*menu*/
+.menu {
+    color: grey;
+    opacity: 50%;
+    text-align: center;
+    text-decoration:none ;
+    margin: 10px;
+}
+
+.menu li {
+    display: block;
+}
+
+.menu a {
+    text-decoration:none;
+    color:grey;
+    text-transform: uppercase;
+    border-bottom: 1px solid lightgrey;
+    /*text-decoration: underline;*/
+}
+
+
+/*úvod*/
+
+.uvod {
+    margin:10px;
+}
+
+.fotopopis {
+    color: grey;
+    opacity: 50%;
+    text-align: center;
+}
+
+.fotopopis a {
+    color:grey;
+}
+
+/*sekce1*/
+
+.sekce1 {
+    margin:10px;
+}
+
+h2 {
+    font-size: 32px;
+    border-bottom: 4px solid #629edb;
+}
+
+
+/*h2::after-line {
+    color:blue;
+  }*/
+
+img {
+    /*justify-content: space-evenly;*/
+    max-width: 100%;
+    height: auto;
+}
+
+/*sekce2*/
+.sekce2 {
+    margin:10px;
+}
+
+/*Fotogalerie*/
+.fotogalerie {
+    margin:10px;
+}
+
+.fotografie {
+    text-align: center;
+    padding: 10px;
+}
+
+.fotografie p {
+    color:grey;
+    text-align: center;
+    margin:0;
+}
+
+.foto {
+    width: 100%;
+    height: auto;
+}
+
+/*Footer*/
+
+.footer {
+    background-color:lightgrey;
+    padding:20px;
+    color: grey;
+}
+
+.footer a {
+    color: grey;
+}
+
+.footer p {
+    text-align: left;
+}
+
+@media (min-width:500px) {
+    .menu li {
+        display: inline-flex;
+        justify-content: space-evenly;
+    }
+
+    .menu {
+        margin:10px;
+        padding:0px;
+    }
+    
+    .menu a {
+        display: inline-flex;
+        padding: 20px 30px;
+    }
+
+    h2 {
+        position:relative;
+        margin-right:400px;
+    }
+    
+
+    .fotografie {
+        display:flex;
+        flex-wrap: wrap;
+    }
+
+    .foto1,
+    .foto2,
+    .foto3,
+    .foto4,
+    .foto5,
+    .foto6,
+    .foto7,
+    .foto8,
+    .foto9 {
+        min-height: 150px;
+        flex-basis: 50%;
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+
+    .popisekfoto{
+        position: absolute;
+        top: 0px;
+        bottom: 0;
+        left: 0px;
+        right: 0px;
+        background:lightgrey;
+        visibility: hidden;
+        opacity: 0;
+        transition: opacity .2s, visibility .2s;
+    }
+
+    .foto1,
+    .foto2,
+    .foto3,
+    .foto4,
+    .foto5,
+    .foto6,
+    .foto7,
+    .foto8,
+    .foto9 {
+        position:relative;
+    }
+
+    .foto1:hover .popisekfoto {
+        visibility: visible;
+        opacity: 0.5;
+        margin-top: 5rem;
+    }
+
+    .foto2:hover .popisekfoto {
+        visibility: visible;
+        opacity: 0.5;
+        margin-top: 5rem;
+    }
+
+    .foto3:hover .popisekfoto {
+        visibility: visible;
+        opacity: 0.5;
+        margin-top: 5rem;
+    }
+
+    .foto4:hover .popisekfoto {
+        visibility: visible;
+        opacity: 0.5;
+        margin-top: 5rem;
+    }
+
+    .foto5:hover .popisekfoto {
+        visibility: visible;
+        opacity: 0.5;
+        margin-top: 5rem;
+    }
+
+    .foto6:hover .popisekfoto {
+        visibility: visible;
+        opacity: 0.5;
+        margin-top: 5rem;
+    }
+
+    .foto7:hover .popisekfoto {
+        visibility: visible;
+        opacity: 0.5;
+        margin-top: 5rem;
+    }
+
+    .foto8:hover .popisekfoto {
+        visibility: visible;
+        opacity: 0.5;
+        margin-top: 5rem;
+    }
+
+    .foto9:hover .popisekfoto {
+        visibility: visible;
+        opacity: 0.5;
+        margin-top: 5rem;
+    }
+
+}
+
+@media (min-width:1000px) {
+    body{
+        background-color: lightgrey;
+    }
+
+    .foto1,
+    .foto2,
+    .foto3,
+    .foto4,
+    .foto5,
+    .foto6,
+    .foto7,
+    .foto8,
+    .foto9 {
+        flex-basis:33.33%;
+    }
+
+    .vystouple {
+        position: relative;
+        top:-30px;
+        bottom:0;
+        background-color: white;
+        box-shadow: thistle;
+        /*width:960px;
+        justify-content: center;*/
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .menu {
+        position:relative;
+        float: left;
+        padding-top: 30px;
+    }
+
+    .menu li {
+        display: table-row;
+        justify-content: space-evenly;
+    }
+    
+    .menu a {
+        display: table-row;
+        padding: 30px 30px;
+        border-bottom: 1px solid lightgrey;
+    }
+
+    .uvod {
+        display:relative;
+        margin-left: 250px;
+        padding-top: 100px;
+    }
+
+    .sekce1 p {
+        display:relative;
+        margin-right:250px;
+    }
+
+    .sekce1 h2 {
+        display:relative;
+        margin-right:250px;
+    }
+
+    .sekce2 p {
+        display:relative;
+        margin-left:250px;
+    }
+
+    .sekce2 h2 {
+        display:relative;
+        margin-left:250px;
+        margin-right:50px;
+    }
+
+    .fotogalerie h2 {
+        display:relative;
+        margin-right:250px;
+    }
+
+}
+
